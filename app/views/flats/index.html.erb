@@ -6,12 +6,6 @@
   </div>
 
   <div class="row">
-    <div class="col">
-      <p>You searched for <strong><%= @query %></strong>. We found <%= @flats.count %> flats out of our <%= Flat.count %> on our website.</p>
-    </div>
-  </div>
-
-  <div class="row">
     <% @flats.each do |flat| %>
       <div class="col-4">
         <div class="flat-card">
